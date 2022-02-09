@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #6AAA64;
+    background-color: antiquewhite;
+}
+
+hr {
+    width: 500px;
+}
+
+#title {
+    font-size: 36px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+#board {
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid lightgray;
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* Text */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+}
+
+.present {
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+}
+
+.absent {
+    background-color: #787C7E;
+    color: white;
+    border-color:white;
+}
