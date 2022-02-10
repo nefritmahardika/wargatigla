@@ -6,7 +6,7 @@ var row = 0;
 var col = 0; 
 
 var gameOver = false;
-var word = "KOPGUR";
+var word = "KIOSER";
 
 window.onload = function(){
     intialize();
